@@ -20,7 +20,7 @@ export const CardNFT = () => {
         }}
       />
 
-      <Typography.Title level={5} className='link'>
+      <Typography.Title level={4} className='link'>
         Equilibrium #3429
       </Typography.Title>
 
@@ -39,7 +39,7 @@ export const CardNFT = () => {
         <Col>
           <Typography.Text>
             <div className='align-items-center secondary-text'>
-              <RiTimeFill style={{ marginRight: 5, fontSize: 13.5 }} /> 3 days left
+              <RiTimeFill style={{ marginRight: 5, fontSize: 16 }} /> 3 days left
             </div>
           </Typography.Text>
         </Col>

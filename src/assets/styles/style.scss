@@ -2,21 +2,13 @@ $soft-blue: hsl(215, 51%, 70%);
 $cyan: hsl(178, 100%, 50%);
 $white: hsl(0, 0%, 100%);
 
-html {
-  body {
-    .root {
-      width: 100%;
-    }
-  }
-}
-
 .mx-auto {
-  margin-left: 'auto';
-  margin-right: 'auto';
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-card-center {
-  min-height: 375px;
+  max-width: 375px;
   height: 100vh;
   padding: 0px 16px;
   display: flex;
@@ -28,6 +20,7 @@ html {
   background-color: hsl(216, 50%, 16%);
   border-radius: 15px;
   box-shadow: 5px 10px 35px hsl(215, 62%, 8%);
+  font-size: 18px;
 
   .ant-card-body {
 
