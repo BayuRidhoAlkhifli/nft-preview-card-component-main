@@ -1,0 +1,86 @@
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+$white: hsl(0, 0%, 100%);
+
+html {
+  body {
+    .root {
+      width: 100%;
+    }
+  }
+}
+
+.mx-auto {
+  margin-left: 'auto';
+  margin-right: 'auto';
+}
+
+.content-card-center {
+  min-height: 375px;
+  height: 100vh;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.ant-card {
+  font-family: 'Outfit',sans-serif;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  box-shadow: 5px 10px 35px hsl(215, 62%, 8%);
+
+  .ant-card-body {
+
+    padding: 19px;
+
+    .ant-image-img,
+    .ant-image-mask {
+      border-radius: 10px;
+    }
+
+    .ant-image-mask {
+      background-color: hsla(178, 100%, 50%, 0.6);
+    }
+
+    .link {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      color: $white;
+    }
+
+    .link:hover {
+      color: $cyan;
+      cursor: pointer;
+    }
+
+    .secondary-text {
+      color: $white;
+      opacity: 0.6;
+      
+    }
+
+    .ant-typography {
+
+      .align-items-center {
+        display: flex;
+        align-items: center;
+      }
+
+      strong {
+        color: $cyan;
+      }
+
+    }
+
+    .ant-divider {
+      border-top: 2px solid hsl(215, 32%, 27%);
+      margin-bottom: 15px;
+      margin-top: 20px;
+    }
+
+    .ant-avatar {
+      border: 1px solid $white
+    }
+  }
+
+}
