@@ -36,16 +36,12 @@ export const CardContent = () => {
       <Row justify="space-between" style={{ marginTop: 15 }}>
         <Col>
           <Typography.Text strong>
-            <div className='align-items-center'>
               <FaEthereum style={{ marginBottom: 2, marginRight: 3 }} /> 0.041ETH
-            </div>
           </Typography.Text>
         </Col>
         <Col>
-          <Typography.Text>
-            <div className='align-items-center secondary-text'>
-              <RiTimeFill style={{ marginRight: 5, fontSize: 16 }} /> 3 days left
-            </div>
+          <Typography.Text className='align-items-center secondary-text'>
+            <RiTimeFill style={{ marginRight: 5, fontSize: 16 }} /> 3 days left
           </Typography.Text>
         </Col>
       </Row>
