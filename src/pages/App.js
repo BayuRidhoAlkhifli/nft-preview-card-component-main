@@ -4,7 +4,14 @@ function App() {
   return (
     <div style={{ backgroundColor: 'hsl(217, 54%, 11%)'}}>
       <div className='mx-auto content-card-center'>
-        <CardNFT />
+        <div>
+          <CardNFT />
+          <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Bayu Ridho Alkifli</a>.
+          </div>
+        </div>
+        
       </div>
     </div>
   );

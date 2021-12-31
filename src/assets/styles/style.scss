@@ -2,6 +2,18 @@ $soft-blue: hsl(215, 51%, 70%);
 $cyan: hsl(178, 100%, 50%);
 $white: hsl(0, 0%, 100%);
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+  color: $white;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
