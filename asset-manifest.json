@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nft-preview-card-component-main/static/css/main.073c9b0a.css",
+    "main.js": "/nft-preview-card-component-main/static/js/main.f1e4f1dd.js",
+    "static/js/787.2d2fec28.chunk.js": "/nft-preview-card-component-main/static/js/787.2d2fec28.chunk.js",
+    "static/media/logo.svg": "/nft-preview-card-component-main/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/nft-preview-card-component-main/index.html",
+    "main.073c9b0a.css.map": "/nft-preview-card-component-main/static/css/main.073c9b0a.css.map",
+    "main.f1e4f1dd.js.map": "/nft-preview-card-component-main/static/js/main.f1e4f1dd.js.map",
+    "787.2d2fec28.chunk.js.map": "/nft-preview-card-component-main/static/js/787.2d2fec28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f1e4f1dd.js"
+  ]
+}
