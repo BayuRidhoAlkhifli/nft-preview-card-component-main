@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# Frontend Mentor - NFT preview card component solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-### `yarn start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### The challenge
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users should be able to:
 
-### `yarn test`
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `yarn build`
+![](./public/screenShots/Screenshot_Desktop.png)
+![](./public/screenShots/Mobile.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution URL: [Github Repo](https://github.com/BayuRidhoAlkhifli/nft-preview-card-component-main)
+- Live Site URL: [Live Site](https://bayuridhoalkhifli.github.io/nft-preview-card-component-main/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process
 
-### `yarn eject`
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://ant.design/) - For Styling
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+After I submitted my solution on frontendmentor.io I got several errors and warnings including:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-It's better to use the h1 heading first, before using any other child headings.
 
-## Learn More
+```html
+//before
+<Typography.Title level="{4}" className="link">
+  Equilibrium #3429
+</Typography.Title>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+//after
+<Typography.Title level="{1}" className="link">
+  Equilibrium #3429
+</Typography.Title>
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-Div tags cannot be used for strong and span tags
 
-### Code Splitting
+```html
+//before
+  <Col>
+    //Typography.Text antd using tags span to create Text Component
+    <Typography.Text strong className='align-items-center color-cyan'>
+      <FaEthereum style={{ marginBottom: 2, marginRight: 3 }} /> 0.041ETH
+    </Typography.Text>
+  </Col>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+//after
+  <Col className='align-items-center color-cyan'>
+    <FaEthereum style={{ marginBottom: 2, marginRight: 3 }} />
+    <Typography.Text strong className='color-cyan'>
+      0.041ETH
+    </Typography.Text>
+  </Col>
+```
 
-### Analyzing the Bundle Size
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This was a simple component project from Front-End Mentor, so I think it's just for some practice and to have some fun. So, I'll leave it with no further changes.
 
-### Making a Progressive Web App
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Ant Design](https://ant.design/) - This website helped me to install and build card components to complete this challenge.
+- [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) - This is an excellent article that finally helped me understand how to use Headings properly. This site not only explains the Heading, there are several other articles explaining web technology that I can study. I recommend it to anyone who wants to learn web applications.
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Website - [Sibayu.id](https://sibayu.id/)
+- Frontend Mentor - [@BayuRidhoAlkhifli](https://www.frontendmentor.io/profile/BayuRidhoAlkhifli)
+- Github - [BayuRidhoAlkhifli](https://github.com/BayuRidhoAlkhifli)
 
-### Deployment
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks to Front-End Mentor for this project and for providing me with beautiful design files to make this project.

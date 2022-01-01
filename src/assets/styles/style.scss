@@ -27,6 +27,15 @@ $white: hsl(0, 0%, 100%);
   align-items: center;
 }
 
+.color-cyan {
+  color: $cyan;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
 .ant-card {
   font-family: 'Outfit',sans-serif;
   background-color: hsl(216, 50%, 16%);
@@ -47,6 +56,10 @@ $white: hsl(0, 0%, 100%);
       background-color: hsla(178, 100%, 50%, 0.6);
     }
 
+    h1 {
+      font-size: 20px;
+    }
+
     .link {
       margin-top: 15px;
       margin-bottom: 15px;
@@ -62,19 +75,6 @@ $white: hsl(0, 0%, 100%);
       color: $white;
       opacity: 0.6;
       
-    }
-
-    .ant-typography {
-
-      .align-items-center, strong {
-        display: flex;
-        align-items: center;
-      }
-
-      strong {
-        color: $cyan;
-      }
-
     }
 
     .ant-divider {

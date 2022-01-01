@@ -25,7 +25,7 @@ export const ImageCard = () => {
 export const CardContent = () => {
   return (
     <>
-      <Typography.Title level={4} className='link'>
+      <Typography.Title level={1} className='link'>
         Equilibrium #3429
       </Typography.Title>
 
@@ -34,14 +34,16 @@ export const CardContent = () => {
       </Typography.Text>
 
       <Row justify="space-between" style={{ marginTop: 15 }}>
-        <Col>
-          <Typography.Text strong>
-              <FaEthereum style={{ marginBottom: 2, marginRight: 3 }} /> 0.041ETH
+        <Col className='align-items-center color-cyan'>
+          <FaEthereum style={{ marginBottom: 2, marginRight: 3 }} />
+          <Typography.Text strong className='color-cyan'>
+            0.041ETH
           </Typography.Text>
         </Col>
-        <Col>
-          <Typography.Text className='align-items-center secondary-text'>
-            <RiTimeFill style={{ marginRight: 5, fontSize: 16 }} /> 3 days left
+        <Col className='align-items-center secondary-text'>
+          <RiTimeFill style={{ marginRight: 5, fontSize: 16 }} />
+          <Typography.Text className='secondary-text'>
+            3 days left
           </Typography.Text>
         </Col>
       </Row>
