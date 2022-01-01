@@ -29,6 +29,7 @@ Users should be able to:
 
 ![](./public/screenShots/Screenshot_Desktop.png)
 ![](./public/screenShots/Screenshot_Mobile.png)
+![](./public/screenShots/Screenshot_Hover.png)
 
 ### Links
 
