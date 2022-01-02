@@ -28,8 +28,8 @@ Users should be able to:
 ### Screenshot
 
 ![](./public/screenShots/Screenshot_Desktop.png)
-![](./public/screenShots/Screenshot_Mobile.png)
 ![](./public/screenShots/Screenshot_Hover.png)
+![](./public/screenShots/Screenshot_Mobile.png)
 
 ### Links
 
